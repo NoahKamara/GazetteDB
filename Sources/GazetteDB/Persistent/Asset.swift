@@ -7,9 +7,10 @@
 
 import Foundation
 import SwiftData
+import GazetteCore
 
 @Model
-public class Asset {
+public class Asset: AssetProtocol {
 	@Attribute
 	public let url: URL
 	

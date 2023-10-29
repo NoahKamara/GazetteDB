@@ -32,6 +32,9 @@ public class Article {
 	@Attribute
 	public var isRead: Bool = false
 	
+	@Attribute
+	public var isBookmarked: Bool = false
+	
 	internal init(
 		url: URL,
 		title: String? = nil,
